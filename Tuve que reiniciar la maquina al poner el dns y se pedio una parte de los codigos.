@@ -1,0 +1,26 @@
+# Modulo-1-so3
+Lista de codigos parte 1
+─[user@parrot]─[~]
+└──╼ $history
+    1  sudo nano /etc/NetworkManager/NetworkManager.conf
+    2  sudo nano /etc/network/interfaces
+    3  ip a show ens33
+    4  cat /etc/resolv.conf
+    5  nmcli device status
+    6  nmcli con show "Wired connection 1"
+    7  nmcli con mod "Wired connection 1" ipv4.addresses 192.168.137.85/24 ipv4.gateway 192.168.137.1 ipv4.method manual
+    8  nmcli con mod "Wired connection 1" ipv4.dns "8.8.8.8 8.8.4.4"
+    9  nmcli con up "wired connection 1"
+   10  nmcli con up "Wired Connection 1"
+   11  nmcli con up "Wired connection 1"
+   12  ip a show ens33
+   13  ping 8.8.8.8
+   14  cat /etc/resolv.conf
+   15  ping google.com
+   16  ping 192.168.137.85
+   17  ip route
+   18  sudo ufw disable
+   19  ping 8.8.8.8
+   20  ping 192.168.137.1
+   21  ip route
+   22  history
