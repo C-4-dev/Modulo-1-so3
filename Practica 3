@@ -1,0 +1,9 @@
+   1  sudo adduser Carla
+   2  sudo adduser carla --allow-bad-names
+   3  sudo usermod -aG sudo carla
+   4  sudo groupadd guest
+   5  sudo usermod -aG guest carla
+   6  sudo deluser --remove-home carla
+   7  sudo goupdel guest
+   8  sudo groupdel guest
+   9  history
