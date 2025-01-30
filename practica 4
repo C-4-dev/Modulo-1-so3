@@ -1,0 +1,27 @@
+┌─[✗]─[user@parrot]─[~/materia]
+└──╼ $history
+    1  rm ~/.bash_history
+    2  history
+    3  clear
+    4  mkdir materia
+    5  cd materia
+    6  touch carla20241123.txt
+    7  vi carla20241123.txt
+    8  chmod 700 carla20241123.txt
+    9  chmod 070 carla20241123.txt
+   10  mkdir materia2
+   11  cp materia/carla20241123.txt materia2
+   12  cp materia/carla20241123.txt materia2/
+   13  sudo nano /materia/carla20241123.txt
+   14  cp materia/carla20241123.txt materia2/
+   15  ls -l
+   16  chmod u+rw car;a20241123.txt
+   17  chmod u+rw carla20241123.txt
+   18  cp carla20241123.txt materia2/
+   19  ls -l
+   20  ls -l materia2
+   21  rm -rf materia
+   22  ls -l materia
+   23  history
+┌─[user@parrot]─[~/materia]
+└──╼ $
